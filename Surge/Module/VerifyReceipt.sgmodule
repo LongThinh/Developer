@@ -1,5 +1,5 @@
 #!name=Verify Receipt
-#!desc=⚠ Free Trial - 𓆣 Cracked In-app Purchase
+#!desc=⚠ Free Trial
 #!system=ios
 
 [MITM]
@@ -10,4 +10,4 @@ hostname = %APPEND% buy.itunes.apple.com
 
 #Local
 
-Verify Receipt* = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=Script/VerifyReceipt.js
+Verify Receipt = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=1,max-size=0,script-path=Script/VerifyReceipt.js

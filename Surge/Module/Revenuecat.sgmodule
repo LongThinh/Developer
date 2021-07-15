@@ -1,5 +1,5 @@
 #!name=Revenuecat
-#!desc=⚠ Free Trial - 𓆣 Cracked In-app Purchase
+#!desc=⚠ Free Trial
 #!system=ios
 
 [MITM]
@@ -10,4 +10,4 @@ hostname = %APPEND% api.revenuecat.com
 
 #Local
 
-Revenuecat* = type=http-response,pattern=^https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=Script/Revenuecat.js
+Revenuecat = type=http-response,pattern=^https:\/\/api\.revenuecat\.com,requires-body=1,max-size=0,script-path=Script/Revenuecat.js
