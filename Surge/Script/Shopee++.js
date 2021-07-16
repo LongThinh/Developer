@@ -13,7 +13,7 @@ if(json.data.success){
 $.notify(`🎉 Shopee++: Congratulations to get ${json.data.increase_coins} coins!`,``,``);
 }else{
 $.error(resp.body);
-$.notify(`🐝 Shoppe++: Sorry! Please try again 𓆉 Tomorrow`,``,``);
+$.notify(`🐝 Shopee++: Please try again 𓆉 Tomorrow`,``,``);
 }
 }else{
 $.notify(`⚠ Shoppe++: Oops! Please try Re-login web`,``,``,{"open-url": "https://shopee.vn/buyer/login?from=%2F&next=%2F"});
