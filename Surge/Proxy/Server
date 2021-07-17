@@ -7,5 +7,4 @@
 🇰🇷 KR 66 = ss, 52.79.60.0, 23290, encrypt-method=aes-256-gcm, password=boWiglZbWT, udp-relay=false
 🇷🇺 RU 102 = ss, 5.189.202.9, 31572, encrypt-method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, udp-relay=false
 🇬🇧 GB 44 = ss, 195.206.169.203, 31572, encrypt-method=aes-256-gcm, password=n8w4StnbVD9dmXYn4Ajt87EA, udp-relay=false
-🇺🇸 US 128 = ss, 212.102.44.83, 40093, encrypt-method=aes-256-gcm, password=x23Z4LGkGDkThZ9Kaz4DURQp, udp-relay=false
 🇺🇸 Heroku US = vmess, 104.19.32.14, 80, username=ad806487-2d26-4636-98b6-ab85cc8521f7, ws=true, ws-path=/, ws-headers=Host:"us.pacproxy.workers.dev", tfo=true
