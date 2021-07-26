@@ -78,13 +78,13 @@ async function post_data(d) {
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)} 💸 ${x.trackName} <New-Pri./> ${x.formattedPrice}`
+                        `${flag(k)} 💸 ${x.trackName} <Newprice/> ${x.formattedPrice}`
                       );
                     }
                   }
                 } else {
                   notifys.push(
-                    `${flag(k)} 🎉 ${x.trackName} <New-Ver./> ${x.version}`
+                    `${flag(k)} 🎉 ${x.trackName} <Version/> ${x.version}`
                   );
                   notifys.push(
                     `${flag(k)} 💵 ${x.trackName} <Price/> ${x.formattedPrice}`
