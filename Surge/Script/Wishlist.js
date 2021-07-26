@@ -73,18 +73,18 @@ async function post_data(d) {
                   ) {
                     if (x.version !== app_monitor[x.trackId].v) {
                       notifys.push(
-                        `${flag(k)} 🥳 ${x.trackName} <Update/> ${x.version}`
+                        `${flag(k)} 🥳 ${x.trackName} <Upgrade/> ${x.version}`
                       );
                     }
                     if (x.formattedPrice !== app_monitor[x.trackId].p) {
                       notifys.push(
-                        `${flag(k)} 💸 ${x.trackName} <Price/> ${x.formattedPrice}`
+                        `${flag(k)} 💸 ${x.trackName} <New-Pri./> ${x.formattedPrice}`
                       );
                     }
                   }
                 } else {
                   notifys.push(
-                    `${flag(k)} 🎉 ${x.trackName} <Version/> ${x.version}`
+                    `${flag(k)} 🎉 ${x.trackName} <New-Ver./> ${x.version}`
                   );
                   notifys.push(
                     `${flag(k)} 💵 ${x.trackName} <Price/> ${x.formattedPrice}`
