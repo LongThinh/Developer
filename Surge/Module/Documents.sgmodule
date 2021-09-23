@@ -1,0 +1,13 @@
+#!name=Documents
+#!desc=⚠ Free Trial
+#!system=ios
+
+[MITM]
+
+hostname = %APPEND% license.pdfexpert.com
+
+[Script]
+
+#Local
+
+Documents = type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$),requires-body=1,max-size=0,script-path=Script/Documents.js
